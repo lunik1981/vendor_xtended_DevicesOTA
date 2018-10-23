@@ -29,10 +29,9 @@
                            <forum>https://forum.xda-developers.com/oneplus-3/oneplus-3--3t-cross-device-development/cardinal-aosp-5-0-android-8-0-pre-t3693585</forum>
                            <telegram>https://t.me/XtendedOfficial</telegram>
                   </oneplus3>
-		 
-                  <oneplus5t>
+		  <dumpling>
                            <maintainer>mukesh22584</maintainer>
-                           <devicename>Oneplus 5t (dumpling)</devicename>
+                           <devicename>Dumpling (dumpling)</devicename>
                            <filename>Xtended-dumpling-20181022-XP-1-OFFICIAL-Release-v4</filename>
 			   <buildtype>Stable</buildtype>
 			   <paypal>https://www.paypal.me/mukesh22584</paypal>
@@ -40,11 +39,10 @@
 			   <gapps>https://OpenGapps.org</gapps>
                            <forum>https://forum.xda-developers.com/oneplus-5t/development/msm-xtended-oreoandroid-8-1-t3754938</forum>
                            <telegram>https://t.me/XtendedOfficial</telegram>
-                  </oneplus5t>
-
-                  <oneplus5>
+                  </dumpling>
+                  <cheeseburger>
                            <maintainer>mukesh22584</maintainer>
-                           <devicename>Oneplus 5 (cheeseburger)</devicename>
+                           <devicename>Cheeseburger (cheeseburger)</devicename>
                            <filename>Xtended-cheeseburger-20181022-XP-1-OFFICIAL-Release-v4</filename>
 			   <buildtype>Stable</buildtype>
 			   <paypal>https://www.paypal.me/mukesh22584</paypal>
@@ -52,8 +50,6 @@
 			   <gapps>https://OpenGapps.org</gapps>
                            <forum>https://forum.xda-developers.com/oneplus-5/development/stable-msm-xtended-t3761012</forum>
                            <telegram>https://t.me/XtendedOfficial</telegram>
-                  </oneplus5>
+                  </cheeseburger>
          </manufacturer>
 </OTA>
-
-
