@@ -51,5 +51,21 @@
                            <forum>https://forum.xda-developers.com/oneplus-5/development/stable-msm-xtended-t3761012</forum>
                            <telegram>https://t.me/XtendedOfficial</telegram>
                   </cheeseburger>
-         </manufacturer>
+        </manufacturer>
+<!-- XIAOMI -->
+         <manufacturer id="Xiaomi"> 
+                     <rolex>
+                           <maintainer>Ankan Ghosh</maintainer>
+                           <devicename>Redmi4A (rolex)</devicename>
+                           <filename>Xtended-rolex-20181026-XP2-OFFICIAL-Release-v5</filename>
+			   <buildtype>Stable</buildtype>
+			   <paypal>https://www.paypal.me/Ankan117</paypal>
+                           <download>https://sourceforge.net/projects/xtended/files/rolex/Xtended-rolex-20181022-XP-1-OFFICIAL-Release-v4.zip/download</download>
+			   <changelog>https://raw.githubusercontent.com/Xtended-Pie/vendor_xtended_DevicesOTA/xp/rolex_changelog.txt</changelog>
+			   <recovery>https://sourceforge.net/projects/batik-recovery/files/rolex/BR-rolex-S-1.4-20181010-0716-OFFICIAL.zip/download</recovery>
+                           <gapps>https://OpenGapps.org</gapps>
+                           <forum>https://forum.xda-developers.com/redmi-4a/development/stable-msm-xtended-pie-firstblood-t3843313</forum>
+                           <telegram>https://t.me/XtendedOfficial</telegram>
+                    </rolex>
+        </manufacturer>
 </OTA>
