@@ -67,5 +67,17 @@
                            <forum>https://forum.xda-developers.com/redmi-4a/development/stable-msm-xtended-pie-firstblood-t3843313</forum>
                            <telegram>https://t.me/XtendedOfficial</telegram>
                     </rolex>
+                    <santoni>
+                           <maintainer>Wajid Khan (wajidkh08)</maintainer>
+                           <devicename>Redmi4x (santoni)</devicename>
+                           <filename>Xtended-santoni-20181027-XP2-OFFICIAL-Release-v5</filename>
+                           <buildtype>Stable</buildtype>
+                           <download>https://sourceforge.net/projects/xtended/files/santoni/Xtended-santoni-20181027-XP2-OFFICIAL-Release-v5.zip/download</download>
+                           <changelog>https://raw.githubusercontent.com/Xtended-Pie/vendor_xtended_DevicesOTA/xp/santoni_changelog.txt</changelog>
+                           <recovery>Any Treble Enabled TWRP Recovery</recovery>
+                           <gapps>https://OpenGapps.org</gapps>
+                           <forum>https://forum.xda-developers.com/xiaomi-redmi-4x/development/rom-msm-xtended-pie-t3852960</forum>
+                           <telegram>https://t.me/XtendedOfficial</telegram>
+                   </santoni>
         </manufacturer>
 </OTA>
