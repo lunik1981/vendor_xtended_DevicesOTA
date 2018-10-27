@@ -1,3 +1,604 @@
-=============================
-Just Testing
-=============================
+====================
+     2018-10-27    
+====================
+
+ * device/oneplus/cheeseburger
+c9d94d9  cheeseburger: just let me pass CTS check  [Lup Gabriel]
+
+ * device/oneplus/dumpling
+95d818a  dumpling: just let me pass CTS check  [Lup Gabriel]
+
+ * device/oneplus/msm8998-common
+25a2779  msm8998: Added OnePlus Camera  [mukesh22584]
+
+ * frameworks/base
+5577565  Merge branch 'xp' of https://github.com/Xtended-Pie/frameworks_base into pie  [mukesh22584]
+
+====================
+     2018-10-26    
+====================
+
+ * device/oneplus/msm8998-common
+300bd3e  msm8998: Add VoLTE Prop  [mukesh22584]
+
+ * frameworks/base
+42e1cc6  base: Introduce new navigation bar key event source  [Carlo Savignano]
+bd8a1cd  SystemUI: don't add already attached qs tile views  [Roman Birg]
+f42c5bf  Allow adjusting progress on touch events.  [Danny Baumann]
+40cabb8  StatusBarSignalPolicy: Why bro why  [Henrique Silva]
+b8d4c92  Clear home button double tap action & Add Overview Long Press Action  [SKULSHADY]
+b5bd398  base: SystemUI: delete deprecated status bar view  [maxwen]
+7a2062a  Merge branch 'xp' of https://github.com/Xtended-Pie/frameworks_base into pie  [mukesh22584]
+01390ce  base: Introduce Accidental Touch  [Thecrazyskull]
+
+ * packages/apps/Xtensions
+cb43b7a  Introduce Accidental Touch [2/2]  [Thecrazyskull]
+
+ * vendor/xtended/DevicesOTA
+bd91354  OTA_FOR_ROLEX (#2)  [Ankan Ghosh]
+8c204df  Update ota.xml  [Mukesh Singh]
+7156b87  OTA for oneplus 5 and 5t  [Mukesh Singh]
+
+====================
+     2018-10-25    
+====================
+
+ * device/oneplus/dumpling
+1a69d94  dumpling: update blobs from ob17  [codeworkx]
+09708a5  dumpling: update fingerprint from 5.1.5  [codeworkx]
+
+ * device/oneplus/msm8998-common
+4d084c8  Merge pull request #6 from mady51/patch-4  [Mukesh Singh]
+100e546  update interactive and cpuboost tweaks  [mady51]
+c366dda  msm8998: Fix typo  [Mukesh Singh]
+3af9b7c  Add Overlays for Gestures.  [SuperDroidBond]
+374e13f  Oneplus Shit: Add back OnePlus Gestures  [SuperDroidBond]
+edbfa30  OneplusShit: CleanUp Shit Strings  [SuperDroidBond]
+f79ae95  msm8998: Rename Snap to SnapdragonCamera2 & update overlays  [SuperDroidBond]
+f9bd56b  msm8998: Add ADB Props Thanks to @SuperDroidBond Signed-off-by: mukesh22584 <mks22584@gmail.com>  [mukesh22584]
+
+ * frameworks/base
+9d9bcb8  SystemUI: stop crashing qs tiles during boot  [maxwen]
+d46639d  Lower Default Screen Brightness  [SuperDroidBond]
+c8c7b92  Separate Notification & Ring Volume  [SuperDroidBond]
+cb2a48b  base: SystemUI: fix status bar mobile view layout problem  [maxwen]
+e2b81ab  Prevent deadlock when going out of idle state  [Gabriele M]
+2930655  Alarm Blocker: Shut up CONTEXT_MANAGER_ALARM_WAKEUP  [faust93]
+e590626  Use Auto brightness for Ambient Display  [Ezio Lacandia Bijelkic]
+b181560  Don't reset audio route if setBluetoothScoOn is called without SCO connection  [Satish Kodishala]
+8369daa  Wi-Fi Auto-connect support  [Yinling]
+ac4b724  base: SettingsProvider: cleanup leftover logspill  [maxwen]
+a270328  base: disable extra check for FLAG_WINDOW_IS_OBSCURED in adb auth  [maxwen]
+b088af2  LS OwnerInfo Fonts & Size Options [1/2] SuperdroidBond:- It's done on the basis of LS Date Font & Size.  [SuperDroidBond]
+387dd0d  [1/2] base: hide lock screen icon  [enzoo96]
+c41cd66  [1/2] base: hide indicator text  [enzoo96]
+8276808  Welcome Back Lockscreen Item Colors [1/2]  [SuperDroidBond]
+63eae09  Merge branch 'xp' of https://github.com/Xtended-Pie/frameworks_base into pie  [mukesh22584]
+17ed7e6  LS OwnerInfo Fonts & Size Options [1/2] SuperdroidBond:- It's done on the basis of LS Date Font & Size.  [SuperDroidBond]
+65db8e6  [1/2] base: hide lock screen icon  [enzoo96]
+fa9b0fc  [1/2] base: hide indicator text  [enzoo96]
+7b01547  Welcome Back Lockscreen Item Colors [1/2]  [SuperDroidBond]
+cb75763  Use fdeCheckPassword error code to indicate pw failure  [AnilKumar Chimata]
+57b26a4  Wallpaper is half black after rotating quickly  [jianhuac]
+c5b9054  Fix NPE in StatusBarSignalPolicy  [DennySPB]
+b062b91  Fix Missing Imports in Signal Strength  [SuperDroidBond]
+7e6fb3e  Merge branch 'xp' of https://github.com/Xtended-Pie/frameworks_base into HEAD  [mukesh22584]
+
+ * hardware/qcom/wlan
+136eb4d  Merge pie-platform-release to aosp-master - DO NOT MERGE  [Bill Yi]
+
+ * kernel/oneplus/msm8998
+988f281  Have Adreno Idler ramp down frequency quicker but increase idlewait to stop any micro lags  [APOPHIS9283]
+c8cbe19  Adreno Idler changes  [APOPHIS9283]
+2dea862  Change adreno idler defaults  [apophis9283]
+bf7e63a  adreno_idler: fix typos :)  [arter97]
+a3d7d6c  adreno_idler: fix-up type definitions  [arter97]
+bc551f2  adreno_idler: remove frequency bump  [arter97]
+2f951b6  adreno_idler: switch to count based instead of time based  [arter97]
+d2a2ca8  kgsl: governor: adrenoboost: fix level value getting stuck  [chandr1000]
+15de27d  gpu: devfreq: adrenoboost: correct leveling errors  [tbalden]
+a941b8b  msm adreno: adrenoboost v2.1: adrenoboost lvl 3 settings cut low freq bump  [tbalden]
+822abd3  gpu: devfreq: adrenoboost: adding conservative governor v2  [tbalden]
+c8143f3  gpu: devfreq: adrenoboost: adding conservative governor  [tbalden]
+2fac860  adrenoboost: finetuning algorithm - scale it a bit down  [tbalden]
+b707d5f  adrenoboost: set to medium by default  [Blacksuan19]
+01f7845  crypto: msm: Update clock for improved performance  [LuizPauloDamaceno]
+321078a  Tighten up adreno idler  [APOPHIS9283]
+d06dca9  faster deepsleep  [root]
+ea842dc  some battery and perf tweaks  [root]
+3955b27  boeffla_wl_blocker: Block default wakelocks we had before  [Nathan Chancellor]
+3c5379f  GPU: Add Adreno Boost  [puteraskynetwork]
+d6be285  GPU: Add Adreno idler  [Madkita]
+
+ * manifest
+5aff223  Track our SettingsIntelligence  [SuperDroidBond]
+
+ * packages/apps/PackageInstaller
+1f97712  Add another missing permission  [ezio84]
+c883d6d  Add missing permission  [setiawanjimmy]
+
+ * packages/apps/Settings
+77b2423  Make BuildNumber show release version. We need users to be informed  [SuperDroidBond]
+
+ * packages/apps/Xtensions
+110224c  LS OwnerInfo Fonts & Size Options [2/2] SuperdroidBond:- It's done on the basis of LS Date Font & Size.  [SuperDroidBond]
+19cfa9c  Hide Lock Icon | Indication & Statusbar [2/2]  [enzoo96]
+0dab621  Add toggle for OneHand UI Mode [2/2]  [mydongistiny]
+1bf6785  Welcome Back Lockscreen Item Colors [2/2]  [SuperDroidBond]
+
+ * vendor/oneplus
+b56f455  msm8998: update blobs from ob17/ob19  [codeworkx]
+
+ * vendor/xtended
+e3bbdb3  Call it XP2 Now for Release v5  [SuperDroidBond]
+
+====================
+     2018-10-24    
+====================
+
+ * device/oneplus/cheeseburger
+cde9052  cheeseburger: Add hw keys overlay  [mukesh22584]
+
+ * frameworks/base
+154920f  SystemUI: fixed "Clock is double after reboot or update"  [alexxxdev]
+6421dda  BatteryMeterView: Forced show percent in PowerSave  [xyyx]
+dedce1e  Do not move the multi-window divider when showing IME  [Yukako Murakami]
+8279dbb  Fix StatusBar icons tinting when in split screen  [Shigeki Yokomichi]
+f858c30  hwkeys: Add OneHanded mode to button mappings  [DennySPB]
+eff8056  SystemUI: add toggle for the onehand ui mode [1/2]  [mydongistiny]
+5f878fd  SystemUI: Add one hand mode triggers  [Luca Stefani]
+03c45ba  Add new feature of One-hand UI Mode  [Satoshi Sanno]
+0a53e4c  Need to check empty not null for String  [Seongho Kim]
+bd4c7a7  Synchronize on a static final object to lock mDeviceBusy  [Ajay Panicker]
+55b8fe9  Fix NPE when creates wifi tracker after setting pin  [mtk12103]
+a577cfc  Avoid that the bound process has a higher priority than caller  [sunwenyong]
+e374567  Themes: Expose QS background color  [ElDainosor]
+fc1fd9d  StatusBarSignalPolicy: Hide signal icons for disabled SIMs  [Paul Keith]
+7cb398d  base: Add permissions for OmniJaws  [Pranav Vashi]
+a04cb7b  Disable Fingerprint debugging  [Miguel Martinez]
+997cdd1  HW Keys: Set home button longpress to no-action  [Miguel Martinez]
+30af2bc  Bluetooth icon transparent when disconnected  [SuperDroidBond]
+7eb87011  Fix Running Services Icon alignment  [Miguel Martinez]
+1a3c285  Add VOLTE icon toggle [1/2]  [SagarMakhar]
+f1f9e4c  Fix VOLTE icon color on Light statusbar  [Adarsh-MR]
+51f0110  Add VOLTE icon Imported and adapted to AOSP from CAF  [shivatejapeddi]
+f6eb8bb  SystemUI: Fix crash when unlocking via fingerprint  [Chris]
+f8cff85  SystemUI: set brightness slider thumb based on mode  [maxwen]
+63d72a5  Add option to disable auto brightness icon in brightness slider [1/2]  [Varun]
+ef6006d  Add auto brightness icon to Quick Settings  [maxwen]
+e13836d  Fix CustomTile NPE in handleRefreshState  [Alex]
+830cc27  QS tile titles visibility [1/2]  [Alex Cruz]
+19d96fe  Allow to set QS panel columns and rows [1/2]  [ezio84]
+012ab19  Custom small QS tiles [1/2]  [xyyx]
+6555364  QuickSettings: Option to disable brightness slider (1/2)  [Altaf-Mahdi]
+ad21d1a  [SQUASH] Revert All QS Tile Columns & Row Configs  [SuperDroidBond]
+7b222d9  Revert "QuickSettings: Option to disable brightness slider (1/2)"  [SuperDroidBond]
+
+ * frameworks/native
+a904a6d  Translate pointer motion events for One-hand UI Mode  [Satoshi Sanno]
+a1610a1  sf: Add support for multiple displays  [Pullakavi Srinivas]
+
+ * frameworks/opt/telephony
+83eebfa  Introduce TelephonyExtUtils  [Michael W]
+
+ * packages/apps/Settings
+827b357  SimSettings: Use TelephonyExtUtils helper methods  [Bruno Martins]
+
+ * packages/apps/Xtensions
+69aacd9  Use Correct Keys for Slider  [SuperDroidBond]
+723f7bd  Add VOLTE icon toggle [2/2]  [SagarMakhar]
+7282827  Custom small QS tiles [2/2]  [xyyx]
+84caef9  QS tile titles visibility [2/2]  [ezio84]
+3ecbade  Allow to set QS panel columns and rows [2/2]  [ezio84]
+b11d1ea  Add auto brightness toggle to Quick Settings [2/2]  [varund7726]
+
+====================
+     2018-10-23    
+====================
+
+ * device/oneplus/dumpling
+80aae52  dumpling: Official tag  [mukesh22584]
+
+ * device/oneplus/msm8998-common
+8b49d00  msm8998: It's not common  [mukesh22584]
+08a609d  msm8998: fix dash charge  [mukesh22584]
+
+ * frameworks/base
+5d15ada  Return Smart Pulldown [1/2]  [Lars Greiss]
+8e55f51  Add Quick Settings Pulldown options [1/2]  [Roman Birg]
+fa2dc28  Fix the Date & Alarm Start/End Padding  [SuperDroidBond]
+9e6acc6  Avoid NPE in system server due to invalid Display  [Gopal Krishna Shukla]
+9830528  Process: Use audio-app cpuset if available  [Haynes Mathew George]
+aeafbce  Check for null path in getInternalPathForUser  [Jerry Zhang]
+cb00f03  Bluetooth: Remove disconnect attempts to override the connections  [Bhakthavatsala Raghavendra]
+29875db  Provide Synchronization to destroyUiAutomationService() to avoid Framework Reboot  [Gopal Krishna Shukla]
+bb3771f  Clear mDeferredHideWallpaper if wallpaper is being hidden  [Tiger Huang]
+0617dcc  SystemUI: Fix SystemUI Crash Issue  [mqi]
+
+ * kernel/oneplus/msm8998
+90df676  defconfig: rebrand to xtended  [mukesh22584]
+
+ * packages/apps/SettingsIntelligence
+fc827a3  SettingsIntelligence: fix search panel bg color for correct themeing  [maxwen]
+
+ * packages/apps/Xtensions
+bca039c  Return Smart Pulldown [2/2]  [Lars Greiss]
+2bcd859  Add Quick Settings Pulldown options [2/2]  [Roman Birg]
+64b86ac  Add Lockscreen Date n Clock Sizes [2/2]  [SuperDroidBond]
+0eca176  Lockscreen Date Fonts [2/2]  [Varun Date]
+b02b507  Introduce QS tile style picker [2/3]  [calebcabob]
+
+ * vendor/oneplus
+8eb9687  msm8998: update ims apk  [mukesh22584]
+20075a8  remove devices that I don't have.  [mukesh22584]
+
+====================
+     2018-10-22    
+====================
+
+ * device/oneplus/cheeseburger
+a23a59c  cheeseburger: Xtended bringup  [mukesh22584]
+
+ * device/oneplus/dumpling
+ee55a74  dumpling: Xtended bringup  [mukesh22584]
+
+ * device/oneplus/msm8998-common
+74aef35  msm8998-common: Add support for OP cam flashable  [Pranav Vashi]
+cefda1e  msm8998:Only qcom sepolicy for now  [mukesh22584]
+901a257  msm8998: enable qcom display BSP  [mukesh22584]
+9f3738a  msm8998: added Our Oneplus Shit Panels  [SuperDroidBond]
+e8b9b30  msm8998: remove doze and pocketmod  [mukesh22584]
+
+ * frameworks/base
+34def79  Lock Clock & Date Font Size [1/2]  [SuperDroidBond]
+49b7ec5  base: Lockscreen Date Fonts [1/2]  [Varun Date]
+0478a7b  QuickSettings: Option to disable brightness slider (1/2)  [Altaf-Mahdi]
+11e8be4  Fix Scrolling power menu outside of window  [Miguel Martinez]
+fb9aa5f  Introduce QS tile style picker [1/3]  [calebcabob]
+da78fa0  Integrate Xtended OTA Support [1/3]  [Pranav Vashi]
+285942e  Kill some lockscreen related animations  [Umang96]
+c6aad0f  WifiDisplayController: handle preexisting p2p connection status  [Li Sun]
+aaeb724  WiFiDisplayController: Defer the P2P Initialization from its constructor.  [Purushottam Kushwaha]
+79c64a7  Merge changes for launching wifidisplay from system settings  [Indranil Chakraborty]
+0123b64  Fix mounting of non-FAT formatted SD cards (1/2)  [Michael Bestas]
+5fc1c5b  CaffeineTile: Fix crash for longClick result.  [Chris]
+c4a5775  SystemUI: use fp MODE_UNLOCK when pulsing or aod  [Marko Man]
+0b2e19e  Force disable PlayServices OTA checks  [ezio84]
+8fa4e45  base: SystemUI: stop crashing qs tiles during boot  [maxwen]
+d21741f  SoundTile: Change ZEN_MODE_NO_INTERRUPTIONS to ZEN_MODE_ALARMS  [xyyx]
+3ddf5e6  Add Sound tile to Quick Settings  [Yoshinori Hirano]
+513d331  SystemUI: Toggle USB tethering only when USB is connected  [Gabriele M]
+7a99ffc  Add USB Tether QS Tile  [BestPig]
+
+====================
+     2018-10-21    
+====================
+
+ * frameworks/base
+e7b563c  Merge branch 'xp' of https://github.com/Xtended-Pie/frameworks_base into pie  [mukesh22584]
+
+ * kernel/oneplus/msm8998
+41343f0  Merge pull request #89 from nathanchance/9.0-treble  [martin coulon]
+52a2413  Merge remote-tracking branch 'als/lineage-15.1' into 9.0-treble  [Nathan Chancellor]
+b8017c5  Merge 4.4.162 into lineage-15.1  [Nathan Chancellor]
+
+====================
+     2018-10-20    
+====================
+
+ * hardware/qcom/display
+54661a2  Merge tag 'android-9.0.0_r12' of https://android.googlesource.com/platform//hardware/qcom/display into HEAD  [ganeshi4u]
+
+ * hardware/qcom/gps
+2930bf2  msm8974: Add -Wno-error to compile with global -Werror.  [Chih-Hung Hsieh]
+
+ * hardware/qcom/media
+eafb768  Merge tag 'android-9.0.0_r12' of https://android.googlesource.com/platform//hardware/qcom/media into HEAD  [ganeshi4u]
+
+ * hardware/qcom/wlan
+f715466  Merge "Allow implicit-fallthrough warnings locally."  [Treehugger Robot]
+57a5756  Allow implicit-fallthrough warnings locally.  [Chih-Hung Hsieh]
+
+ * kernel/oneplus/msm8998
+24c2342  Linux 4.4.162  [Greg Kroah-Hartman]
+e34c69f  HV: properly delay KVP packets when negotiation is in progress  [Long Li]
+43fea64  Drivers: hv: kvp: fix IP Failover  [Vitaly Kuznetsov]
+eaee797  Drivers: hv: util: Pass the channel information during the init call  [K. Y. Srinivasan]
+f91b8b1  Drivers: hv: utils: Invoke the poll function after handshake  [K. Y. Srinivasan]
+68a3186  usb: gadget: serial: fix oops when data rx'd after close  [Stephen Warren]
+466dda6  ARC: build: Get rid of toolchain check  [Alexey Brodkin]
+5a51c55  powerpc/tm: Avoid possible userspace r1 corruption on reclaim  [Michael Neuling]
+6939b3b  powerpc/tm: Fix userspace r13 corruption  [Michael Neuling]
+0d02fdd  net/mlx4: Use cpumask_available for eq->affinity_mask  [Nathan Chancellor]
+6df8eb6  Input: atakbd - fix Atari CapsLock behaviour  [Michael Schmitz]
+d200ea2  Input: atakbd - fix Atari keymap  [Andreas Schwab]
+be7e497  clocksource/drivers/ti-32k: Add CLOCK_SOURCE_SUSPEND_NONSTOP flag for non-am43 SoCs  [Keerthy]
+2a585d4  media: af9035: prevent buffer overflow on write  [Jozef Balga]
+4e7ef8f  x86/fpu: Finish excising 'eagerfpu'  [Andy Lutomirski]
+6e7d7be  x86/fpu: Remove struct fpu::counter  [Rik van Riel]
+8c6b69c  x86/fpu: Remove use_eager_fpu()  [Andy Lutomirski]
+84037ee  KVM: x86: remove eager_fpu field of struct kvm_vcpu_arch  [Paolo Bonzini]
+dcea931  rtnl: limit IFLA_NUM_TX_QUEUES and IFLA_NUM_RX_QUEUES to 4096  [Eric Dumazet]
+59b6d2e  net: systemport: Fix wake-up interrupt race during resume  [Florian Fainelli]
+2b2c9306  net: mvpp2: Extract the correct ethtype from the skb for tx csum offload  [Maxime Chevallier]
+e0fff89  team: Forbid enslaving team device to itself  [Ido Schimmel]
+2f04cac  qlcnic: fix Tx descriptor corruption on 82xx devices  [Shahed Shaikh]
+0aa059e  net/usb: cancel pending work when unbinding smsc75xx  [Yu Zhao]
+1f3a236  netlabel: check for IPV4MASK in addrinfo_get  [Sean Tranchetti]
+9ee4a60  net/ipv6: Display all addresses in output of /proc/net/if_inet6  [Jeff Barnhill]
+2b7e4c7  net: ipv4: update fnhe_pmtu when first hop's MTU changes  [Sabrina Dubroca]
+d7148ee  ipv4: fix use-after-free in ip_cmsg_recv_dstaddr()  [Eric Dumazet]
+f9d3572  ip_tunnel: be careful when accessing the inner header  [Paolo Abeni]
+20f16d1  ip6_tunnel: be careful when accessing the inner header  [Paolo Abeni]
+2691921  bonding: avoid possible dead-lock  [Mahesh Bandewar]
+4348b96  bnxt_en: Fix TX timeout during netpoll.  [Michael Chan]
+5ac147e  jffs2: return -ERANGE when xattr buffer is too small  [Hou Tao]
+f37a3ff  xhci: Don't print a warning when setting link state for disabled ports  [Mathias Nyman]
+8633340  i2c: i2c-scmi: fix for i2c_smbus_write_block_data  [Edgar Cherkasov]
+49f80e6  perf script python: Fix export-to-postgresql.py occasional failure  [Adrian Hunter]
+2f41f38  mach64: detect the dot clock divider correctly on sparc  [Mikulas Patocka]
+0f0ad8d  mm/vmstat.c: fix outdated vmstat_text  [Jann Horn]
+7a3d844  ext4: add corruption check in ext4_xattr_set_entry()  [Theodore Ts'o]
+d6a6d4e  drm/amdgpu: Fix SDMA HQD destroy error on gfx_v7  [Amber Lin]
+51b6ff4  ARM: dts: at91: add new compatibility string for macb on sama5d3  [Nicolas Ferre]
+f74eda8  net: macb: disable scatter-gather for macb on sama5d3  [Nicolas Ferre]
+bd66767  stmmac: fix valid numbers of unicast filter entries  [Jongsung Kim]
+ba996b3  sound: enable interrupt after dma buffer initialization  [Yu Zhao]
+8c20772  mfd: omap-usb-host: Fix dts probe of children  [Tony Lindgren]
+ac38645  selftests/efivarfs: add required kernel configs  [Lei Yang]
+a5aa8bd  ASoC: sigmadsp: safeload should not have lower byte limit  [Danny Smith]
+1e3a440  ASoC: wm8804: Add ACPI support  [Pierre-Louis Bossart]
+
+====================
+     2018-10-19    
+====================
+
+ * build/make
+28aa94d  Fix compilation error  [Mukesh Singh]
+
+ * frameworks/base
+c7a2910  Introduce QS tile style picker [1/3]  [calebcabob]
+535bd02  Merge branch 'xp' of https://github.com/Xtended-Pie/frameworks_base into HEAD  [mukesh22584]
+58aba14  Integrate Xtended OTA Support [1/3]  [Pranav Vashi]
+
+ * manifest
+ebfb272  Track OTA Packages  [SuperDroidBond]
+
+ * packages/apps/DocumentsUI
+99d370b  Fix Blue Text on Positive Button  [SuperDroidBond]
+
+ * vendor/xtended
+1977879  Introduce QS tile style picker [3/3]  [calebcabob]
+650fe4b  Remove Unnecessary packages  [SuperDroidBond]
+172eb07  Integrate Xtended OTA Support [2/3]  [Pranav Vashi]
+
+ * vendor/xtended/DevicesOTA
+fceacd0  Integrate OTA For OnePlus3  [SuperDroidBond]
+
+====================
+     2018-10-18    
+====================
+
+ * hardware/libhardware
+62b9fd3  Revert "power: Add new power hints"  [mukesh22584]
+
+ * packages/apps/Settings
+d728e5f  Integrate Xtended OTA Support [3/3]  [Pranav Vashi]
+
+ * packages/apps/XOta
+617884d  Pie: OTA Refactor for Xtended  [Pranav Vashi]
+
+ * vendor/xtended/DevicesOTA
+b1fe785  Initial commit  [SuperDroidBond]
+
+====================
+     2018-10-17    
+====================
+
+ * build/make
+5900652  Build SnapCam  [SuperDroidBond]
+
+ * frameworks/av
+5c9eb08  CameraService: Allow new msg types for OP cam  [Pranav Vashi]
+c98dc35  CameraService: Fix openCamera denial for OP cam  [Pranav Vashi]
+
+ * frameworks/base
+6709bab  Merge branch 'xp' of https://github.com/Xtended-Pie/frameworks_base into pie  [mukesh22584]
+1fef7b1  Kill some lockscreen related animations  [Umang96]
+31346da  WifiDisplayController: handle preexisting p2p connection status  [Li Sun]
+c8551e8  WiFiDisplayController: Defer the P2P Initialization from its constructor.  [Purushottam Kushwaha]
+b5ba141  Merge changes for launching wifidisplay from system settings  [Indranil Chakraborty]
+25adea3  Fix mounting of non-FAT formatted SD cards (1/2)  [Michael Bestas]
+4dfab4a  Return Smart Pulldown [1/2]  [Lars Greiss]
+4f45a25  Add Quick Settings Pulldown options [1/2]  [Roman Birg]
+30dbff1  FB: Clean up oneplus camera support  [Pranav Vashi]
+578ce69  FB: Add oneplus camera support  [siankatabg]
+
+ * manifest
+66c9577  Track our Gallery & SnapCam Forks  [SuperDroidBond]
+
+ * packages/apps/Settings
+361ffb8  DevelopmentSettings: Hide OEM unlock by default  [Bruno Martins]
+
+ * packages/apps/Xtensions
+37e8cdd  All Double Tap Gesture default off  [SuperDroidBond]
+
+ * packages/providers/MediaProvider
+d9742ef  Fix mounting of non-FAT formatted SD cards (2/2)  [Michael Bestas]
+
+ * vendor/xtended
+ed8ef2d  OmniTheme: Add Mistic Brown Accent  [SuperDroidBond]
+230eb09  OmniTheme: Add EyeSoother Theme [1/2]  [SuperDroidBond]
+5dc62af  Add Xtended Clear Theme from Oreo [1/2]  [SuperDroidBond]
+
+====================
+     2018-10-16    
+====================
+
+ * frameworks/base
+5c14de4  CaffeineTile: Fix crash for longClick result.  [Chris]
+d0dec12  SystemUI: use fp MODE_UNLOCK when pulsing or aod  [Marko Man]
+57cad15  Add option to disable auto brightness icon in brightness slider [1/2]  [Varun]
+598cec9  Force disable PlayServices OTA checks  [ezio84]
+ad4ab6a  base: SystemUI: stop crashing qs tiles during boot  [maxwen]
+0b10cb8  SoundTile: Change ZEN_MODE_NO_INTERRUPTIONS to ZEN_MODE_ALARMS  [xyyx]
+3ad3d4b  Add Sound tile to Quick Settings  [Yoshinori Hirano]
+ea50d75  SystemUI: Toggle USB tethering only when USB is connected  [Gabriele M]
+f1f2f3a  Add USB Tether QS Tile  [BestPig]
+cfaf404  Add auto brightness icon to Quick Settings  [maxwen]
+
+ * manifest
+259a072  Update ReadMe & Thread Template for Pie  [SuperDroidBond]
+362d80e  Track Our Own - qcom_sepolicy opt_net_ims xtended_interfaces  [SuperDroidBond]
+
+ * packages/apps/OmniStyle
+1e16c86  OmniTheme: Add Eye Soother theme [2/2]  [SuperDroidBond]
+8ef3b77  Add Xtended Clear Theme from Oreo [2/2]  [SuperDroidBond]
+
+ * packages/apps/Settings
+c6f42a0  Align battery preference like others  [SuperDroidBond]
+983692c  Remove feedback and bug report stuff  [ezio84]
+de99678  Changelog: Add left padding  [xyyx]
+
+ * vendor/xtended
+d98dfa6  OmniTheme: Add NotificationBlack theme for notification  [SuperDroidBond]
+4865fa6  Correct the naming of Pitch Black & Almost Black Themes  [SuperDroidBond]
+
+====================
+     2018-10-15    
+====================
+
+ * frameworks/av
+f894f8a  Allow FaceUnlock in background  [xyyx]
+6273238  OMXNodeInstance: Do not use already freed memory  [Krzysztof Semko]
+647a769  Camera: Mark stream as ABANDONED if dequeueBuffer returns DEAD_OBJECT  [Mounika Reddy Tangirala]
+e937b6b  Camera: Skip stream size check for whitelisted apps.  [Gaoxiang Chen]
+3365aa7  Tuning of Binder buffer for various HALs  [Paras Nagda]
+ce33f2a  Modified that logs do not include URLs  [jongyun.kwon]
+
+ * frameworks/base
+cb4543a  Camera: Ignore torch status update for aux or compsite camera  [Gaoxiang Chen]
+bda8388  Camera: Skip stream size check for whitelisted apps..  [Gaoxiang Chen]
+f660345  camera: Skip HFR checks for privileged apps.  [Sai Kumar Sanagavarapu]
+17fac9a  Camera2: Notify fps as Session Based Parameter  [Sauhard Pande]
+80bd2d4  camera: Check if aux camera whitelist is set before restricting cameras  [Rashed Abdel-Tawab]
+a7d892b  Camera: Expose Aux camera to apps present in the whitelist  [Sauhard Pande]
+1c6e220  Camera: Clearing exception for Extended Face  [Sauhard Pande]
+b17c3cf  Camera: Extend face detection  [Shuzhen Wang]
+ace9110  SystemUI: Hide unprovisioned SIMs * There's no point of displaying null signal icon. clean up PSB while we're at it Signed-off-by: Varun Date <date.varun123@gmail.com>  [Thecrazyskull]
+
+ * packages/apps/Launcher3
+f51a09a  Option to hide/show labels on desktop & app-drawer  [Alexey Derendyaev]
+6c2c673  Provider: Initialize createEmptyRowOnFirstScreen without QSB  [Adrian DC]
+80870af  Launcher3: Stability NullPointer issue  [yingrenw]
+c7008a5  Exclude from recents  [cretin45]
+9f93c85  Disable QSB on first screen by default  [Arne Coucheron]
+fa48857  Launcher3: Add options to change grid sizes  [hundeva]
+
+ * packages/apps/Xtensions
+8ab2e8e  Fix Lockscreen Power Menu  [SuperDroidBond]
+d41c102  Move LS Weather Switch to OmniJaws Settings  [SuperDroidBond]
+6986d60  Weather: Add switches to show city/temp on lockscreen [2/2]  [mydongistiny]
+40be6ae  Remove dashboard tile summaries [3/3]  [Alex]
+
+====================
+     2018-10-14    
+====================
+
+ * frameworks/base
+add2088  view: add null check for dispatch touch view  [jianzhou]
+74ea585  SystemUI: Use color drawables for doze weather  [mydongistiny]
+5a88b1e  Weather: Add switches to show city/temp on lockscreen [1/2]  [mydongistiny]
+e40095e  XtendedUtils: add isPackageInstalled boolean  [romanbb]
+9276741  hw-keys: enable powermenu on hwkeys actions  [bigrushdog]
+e8f5760  Add ICCID into CarrierIdentifier  [Mengjun Leng]
+ff236ba  Add config to disable CDMA call forward/waiting  [pengfeix]
+1511f81  BT: Send info if call is CS type from telecomm service to BT apps.  [Sumit Bajpai]
+523d21f  Telecom: Add support for call timer reset on CDMA MO call  [Mengjun Leng]
+db2f08c  IMS: Propagate RTT capability of the called party to UI  [Benergy Meenan Ravuri]
+7c3086e  Use proper coded alphabet when a contact is written into EF_ADN of USIM.  [Umashankar Godachi]
+5c97bed  IMS: Conference URI support.  [Suchand Ghosh]
+52747d7  IMS: Add CALL_TYPE for audio and video inactive  [Ashit Sood]
+39f3381  Pass correct parameters to API sendMultipartTextMessage  [Mengjun Leng]
+91a2f8d  IMS: Initialize provisioning status to unknown.  [Benergy Meenan Ravuri]
+4ad88a1  Fix Possible Deadlock with getFeatureState  [Brad Ebinger]
+6dc7e46  FR49835: ImsMultiEndPoint - Sip Notify Change  [Sumit Das]
+5417f92  FR49835: ImsMultiEndPoint - Sip Notify Change  [Sumit Das]
+1db8484  IMS: Support Robocall Feature For MT VOLTE Calls  [Sumit Das]
+bcc78eb  IMS: Support for Implicit Call Rejection  [Omkar Kolangade]
+98d544a  IMS: Propagate call session property changed message  [Nivedita Sarkar]
+f4fe4ab  Emergency SMS carrier config flag  [Avinash Nalluri]
+6ad520d  IMS: Adding support for TIR/TIP permanent provisioning  [Ashit Sood]
+9e29ec0  Avoid WiFi to Cellular silent redial when roaming  [Sumit Das]
+48d3765  Telephony: Add DisconnectCause values for clear code  [Qiang Chen]
+97d3bf2  SEEMP: framework instrumentation and AppProtect features  [Preeti Nagar]
+94347ee  IMS: Add flag to control reset UT capability  [pengfei xiao]
+af6005b  IMS: Add UT interface to query CF setting for service class.  [pengfeix]
+9694ad5  SMS: Parsing of CDMA MMS notification carried by SMS  [Mengjun Leng]
+8d7a8f4  Telephony: Add 7bit Ascii support for long message  [Mengjun Leng]
+5980a0b  IMS-VT: Add config to control holding a video call  [Ravi Paluri]
+2ed818b  Telephony: Get SIM card capacity count of SMS  [Mengjun Leng]
+fdd0307  Telephony: Introduce a base class for ISMS.aidl.  [Ajay Nambi]
+425c7a7  Remove dashboard tile summaries [1/3]  [Alex]
+cdff171  Allow setting custom symbol near text on charging [1/2]  [Pranav Vashi]
+6c5a821  Add bluetooth battery level toggle for statusbar and qs [1/2]  [Pranav Vashi]
+74c889c  Ability to disable dashboards suggestions & conditions [1/3]  [xyyx]
+
+ * frameworks/opt/net/ims
+0123602  Merge tag 'LA.UM.7.4.r1-03500-8x98.0' of https://source.codeaurora.org/quic/la/platform/frameworks/opt/net/ims into HEAD  [DennySPB]
+
+ * frameworks/opt/telephony
+d14dcf3  Remove dual reference to "isNvSubscription" method  [SuperDroidBond]
+2fcd7f6  DCTracker: fix loading of Oreo qti-telephony-common blob  [DennySPB]
+f6eb1b2  PhoneFactory: fix creating a cdma phone type  [Dan Pasanen]
+8870846  Telephony: Enable NV based CDMA data call.  [Yashdev Singh]
+a8bcacc  telephony: Fix loading of non Oreo-MR1 QTI blobs  [maxwen]
+74b2017  Merge tag 'LA.UM.7.4.r1-03500-8x98.0' of https://source.codeaurora.org/quic/la/platform/frameworks/opt/telephony into HEAD  [DennySPB]
+
+ * packages/apps/Settings
+d67e707  SimSettings: Fix potential NPE  [LuK1337]
+0bd43ab  SimSettings: Handle NoClassDefFoundError on devices without telephony-ext  [LuK1337]
+c9b2655  Make sure inactive sim switch is disabled  [Alex Cruz]
+4422849  Clean up SIM enable toggle implementation  [Danny Baumann]
+95e5110  Utilize handler and PreferenceViewHolder  [Thecrazyskull]
+febc7ea  Make provisioning optional even if qti-telephony is present  [Ricardo Cerqueira]
+971fda9  Disable sim switch if subscription isn't valid  [Luca Stefani]
+32dc1cb  Fix ANR on SIM deactivation  [Venkatraman Nerellapalli]
+63f7e73  Hide manual provisioning switch when extphone framework is not present  [LuK1337]
+ec232ea  Don't set the icon for sim activation / deactivation dialog  [LuK1337]
+f4c10f5  Break MSIM dependency on qci-telephony-framework  [Ricardo Cerqueira]
+1cd87fd  Select preferred primary sub  [Sandeep Gutta]
+da3df81  Fix to do not allow both SIM deactivation  [Sandeep Gutta]
+7484e1f  Manual provision related fixes  [Sandeep Gutta]
+cd902c8  Fix possible NPE on SIM settings shutdown.  [Danny Baumann]
+bde3ce9  Add Manual provisioning support  [Chaitanya Saggurthi]
+e142f36  Remove dashboard tile summaries [2/3]  [Alex]
+1dd909d  Fix Battery settings FC  [ezio84]
+
+ * packages/apps/Xtensions
+d6ea609  Allow setting custom symbol near text on charging [2/2]  [Pranav Vashi]
+d971348  Ability to disable dashboards suggestions & conditions [3/3]  [xyyx]
+2ffa76d  Add bluetooth battery level toggle [2/2]  [Pranav Vashi]
+
+ * packages/services/Telecomm
+8d3c075  Break qti-telephony-framework dependency II  [maxwen]
+1419f02  Merge tag 'LA.UM.7.4.r1-03500-8x98.0' of https://source.codeaurora.org/quic/la/platform/packages/services/Telecomm into HEAD  [DennySPB]
+
+ * packages/services/Telephony
+5050964  PhoneCommon: Add description text item for each clear code  [Li Wei]
+59de1c4  IMS: Add support for STK CC feature  [Suresh Koleti]
+d2d1516  Quick solution for preferred_network_mode array  [maxwen]
+1326b3c  Add permission to change WiFi hotspot settings  [Marko Man]
+d534e38  Unify calling account display and selection  [maxwen]
+57fc331  Check before removing preference  [maxwen]
+15f5959  Break qti-telephony-framework dependency  [maxwen]
+aa6ee8c  TeleService: If you want to remove a pref you should set the key  [maxwen]
+3493f6a  CallFeatureSettings: Only show video quality if QTI package installed  [dhacker29]
+4798b42  Revert "Add support to launch call barring"  [Marko Man]
+016d47d  Revert "XDivert changes for MSIM"  [Marko Man]
+90ed2a1  Add some org.codeaurora.* to protected broadcasts  [maxwen]
+7aaf9e6  Merge tag 'LA.UM.7.4.r1-03500-8x98.0' of https://source.codeaurora.org/quic/la/platform/packages/services/Telephony into HEAD  [DennySPB]
+
+ * system/sepolicy
+7be5e4a  allow platform_app to use nfc_service for NFC tile  [Daniel Micay]
+5815808  sepolicy: fix neverallow  [xyyx]
