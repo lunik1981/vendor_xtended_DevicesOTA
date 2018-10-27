@@ -19,10 +19,10 @@
                   <oneplus3>
                            <maintainer>SuperDroidBond</maintainer>
                            <devicename>Oneplus 3 (oneplus3)</devicename>
-                           <filename>Xtended-oneplus3-20181018-XP-1-OFFICIAL-Release-v4</filename>
+                           <filename>Xtended-oneplus3-20181026-XP2-OFFICIAL-Release-v5</filename>
 			   <buildtype>Stable</buildtype>
 			   <paypal>https://www.paypal.me/superdroidbond</paypal>
-                           <download>https://sourceforge.net/projects/xtended/files/oneplus3/Xtended-oneplus3-20181018-XP-1-OFFICIAL-Release-v4.zip/download</download>
+                           <download>https://sourceforge.net/projects/xtended/files/oneplus3/Xtended-oneplus3-20181026-XP2-OFFICIAL-Release-v5.zip/download</download>
 			   <changelog>https://raw.githubusercontent.com/Xtended-Pie/vendor_xtended_DevicesOTA/xp/oneplus3_changelog.txt</changelog>
 			   <recovery>https://drive.google.com/open?id=1sF5RyYECDPg-5hbFjN03OSh50-dh4cMl</recovery>
                            <gapps>https://OpenGapps.org</gapps>
