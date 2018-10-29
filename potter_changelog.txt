@@ -1,0 +1,279 @@
+====================
+     2018-10-29    
+====================
+
+ * vendor/xtended
+39f50fa  qcom_target: Add wlan-caf to CFI paths  [Ethan Chen]
+
+====================
+     2018-10-28    
+====================
+
+====================
+     2018-10-27    
+====================
+
+ * vendor/xtended/DevicesOTA
+de31404  Update OnePlus3 for Release v5  [SuperDroidBond]
+
+====================
+     2018-10-26    
+====================
+
+ * frameworks/base
+42e1cc6  base: Introduce new navigation bar key event source  [Carlo Savignano]
+bd8a1cd  SystemUI: don't add already attached qs tile views  [Roman Birg]
+f42c5bf  Allow adjusting progress on touch events.  [Danny Baumann]
+40cabb8  StatusBarSignalPolicy: Why bro why  [Henrique Silva]
+b8d4c92  Clear home button double tap action & Add Overview Long Press Action  [SKULSHADY]
+b5bd398  base: SystemUI: delete deprecated status bar view  [maxwen]
+
+ * vendor/xtended/DevicesOTA
+bd91354  OTA_FOR_ROLEX (#2)  [Ankan Ghosh]
+8c204df  Update ota.xml  [Mukesh Singh]
+7156b87  OTA for oneplus 5 and 5t  [Mukesh Singh]
+
+====================
+     2018-10-25    
+====================
+
+ * frameworks/base
+01390ce  base: Introduce Accidental Touch  [Thecrazyskull]
+9d9bcb8  SystemUI: stop crashing qs tiles during boot  [maxwen]
+d46639d  Lower Default Screen Brightness  [SuperDroidBond]
+c8c7b92  Separate Notification & Ring Volume  [SuperDroidBond]
+cb2a48b  base: SystemUI: fix status bar mobile view layout problem  [maxwen]
+e2b81ab  Prevent deadlock when going out of idle state  [Gabriele M]
+2930655  Alarm Blocker: Shut up CONTEXT_MANAGER_ALARM_WAKEUP  [faust93]
+e590626  Use Auto brightness for Ambient Display  [Ezio Lacandia Bijelkic]
+b181560  Don't reset audio route if setBluetoothScoOn is called without SCO connection  [Satish Kodishala]
+8369daa  Wi-Fi Auto-connect support  [Yinling]
+ac4b724  base: SettingsProvider: cleanup leftover logspill  [maxwen]
+a270328  base: disable extra check for FLAG_WINDOW_IS_OBSCURED in adb auth  [maxwen]
+b088af2  LS OwnerInfo Fonts & Size Options [1/2] SuperdroidBond:- It's done on the basis of LS Date Font & Size.  [SuperDroidBond]
+387dd0d  [1/2] base: hide lock screen icon  [enzoo96]
+c41cd66  [1/2] base: hide indicator text  [enzoo96]
+8276808  Welcome Back Lockscreen Item Colors [1/2]  [SuperDroidBond]
+cb75763  Use fdeCheckPassword error code to indicate pw failure  [AnilKumar Chimata]
+57b26a4  Wallpaper is half black after rotating quickly  [jianhuac]
+c5b9054  Fix NPE in StatusBarSignalPolicy  [DennySPB]
+b062b91  Fix Missing Imports in Signal Strength  [SuperDroidBond]
+
+ * manifest
+5aff223  Track our SettingsIntelligence  [SuperDroidBond]
+
+ * packages/apps/PackageInstaller
+1f97712  Add another missing permission  [ezio84]
+c883d6d  Add missing permission  [setiawanjimmy]
+
+ * packages/apps/Settings
+77b2423  Make BuildNumber show release version. We need users to be informed  [SuperDroidBond]
+
+ * packages/apps/Xtensions
+cb43b7a  Introduce Accidental Touch [2/2]  [Thecrazyskull]
+110224c  LS OwnerInfo Fonts & Size Options [2/2] SuperdroidBond:- It's done on the basis of LS Date Font & Size.  [SuperDroidBond]
+19cfa9c  Hide Lock Icon | Indication & Statusbar [2/2]  [enzoo96]
+0dab621  Add toggle for OneHand UI Mode [2/2]  [mydongistiny]
+1bf6785  Welcome Back Lockscreen Item Colors [2/2]  [SuperDroidBond]
+
+ * vendor/xtended
+e3bbdb3  Call it XP2 Now for Release v5  [SuperDroidBond]
+
+====================
+     2018-10-24    
+====================
+
+ * frameworks/base
+154920f  SystemUI: fixed "Clock is double after reboot or update"  [alexxxdev]
+6421dda  BatteryMeterView: Forced show percent in PowerSave  [xyyx]
+dedce1e  Do not move the multi-window divider when showing IME  [Yukako Murakami]
+8279dbb  Fix StatusBar icons tinting when in split screen  [Shigeki Yokomichi]
+f858c30  hwkeys: Add OneHanded mode to button mappings  [DennySPB]
+eff8056  SystemUI: add toggle for the onehand ui mode [1/2]  [mydongistiny]
+5f878fd  SystemUI: Add one hand mode triggers  [Luca Stefani]
+03c45ba  Add new feature of One-hand UI Mode  [Satoshi Sanno]
+0a53e4c  Need to check empty not null for String  [Seongho Kim]
+bd4c7a7  Synchronize on a static final object to lock mDeviceBusy  [Ajay Panicker]
+55b8fe9  Fix NPE when creates wifi tracker after setting pin  [mtk12103]
+a577cfc  Avoid that the bound process has a higher priority than caller  [sunwenyong]
+e374567  Themes: Expose QS background color  [ElDainosor]
+fc1fd9d  StatusBarSignalPolicy: Hide signal icons for disabled SIMs  [Paul Keith]
+7cb398d  base: Add permissions for OmniJaws  [Pranav Vashi]
+a04cb7b  Disable Fingerprint debugging  [Miguel Martinez]
+997cdd1  HW Keys: Set home button longpress to no-action  [Miguel Martinez]
+30af2bc  Bluetooth icon transparent when disconnected  [SuperDroidBond]
+7eb87011  Fix Running Services Icon alignment  [Miguel Martinez]
+1a3c285  Add VOLTE icon toggle [1/2]  [SagarMakhar]
+f1f9e4c  Fix VOLTE icon color on Light statusbar  [Adarsh-MR]
+51f0110  Add VOLTE icon Imported and adapted to AOSP from CAF  [shivatejapeddi]
+f6eb8bb  SystemUI: Fix crash when unlocking via fingerprint  [Chris]
+f8cff85  SystemUI: set brightness slider thumb based on mode  [maxwen]
+63d72a5  Add option to disable auto brightness icon in brightness slider [1/2]  [Varun]
+ef6006d  Add auto brightness icon to Quick Settings  [maxwen]
+e13836d  Fix CustomTile NPE in handleRefreshState  [Alex]
+830cc27  QS tile titles visibility [1/2]  [Alex Cruz]
+19d96fe  Allow to set QS panel columns and rows [1/2]  [ezio84]
+012ab19  Custom small QS tiles [1/2]  [xyyx]
+6555364  QuickSettings: Option to disable brightness slider (1/2)  [Altaf-Mahdi]
+ad21d1a  [SQUASH] Revert All QS Tile Columns & Row Configs  [SuperDroidBond]
+7b222d9  Revert "QuickSettings: Option to disable brightness slider (1/2)"  [SuperDroidBond]
+
+ * frameworks/native
+a904a6d  Translate pointer motion events for One-hand UI Mode  [Satoshi Sanno]
+a1610a1  sf: Add support for multiple displays  [Pullakavi Srinivas]
+
+ * frameworks/opt/telephony
+83eebfa  Introduce TelephonyExtUtils  [Michael W]
+
+ * packages/apps/Settings
+827b357  SimSettings: Use TelephonyExtUtils helper methods  [Bruno Martins]
+
+ * packages/apps/Xtensions
+69aacd9  Use Correct Keys for Slider  [SuperDroidBond]
+723f7bd  Add VOLTE icon toggle [2/2]  [SagarMakhar]
+7282827  Custom small QS tiles [2/2]  [xyyx]
+84caef9  QS tile titles visibility [2/2]  [ezio84]
+3ecbade  Allow to set QS panel columns and rows [2/2]  [ezio84]
+b11d1ea  Add auto brightness toggle to Quick Settings [2/2]  [varund7726]
+
+====================
+     2018-10-23    
+====================
+
+ * packages/apps/SettingsIntelligence
+fc827a3  SettingsIntelligence: fix search panel bg color for correct themeing  [maxwen]
+
+ * packages/apps/Xtensions
+bca039c  Return Smart Pulldown [2/2]  [Lars Greiss]
+
+====================
+     2018-10-22    
+====================
+
+ * frameworks/base
+5d15ada  Return Smart Pulldown [1/2]  [Lars Greiss]
+8e55f51  Add Quick Settings Pulldown options [1/2]  [Roman Birg]
+fa2dc28  Fix the Date & Alarm Start/End Padding  [SuperDroidBond]
+9e6acc6  Avoid NPE in system server due to invalid Display  [Gopal Krishna Shukla]
+9830528  Process: Use audio-app cpuset if available  [Haynes Mathew George]
+aeafbce  Check for null path in getInternalPathForUser  [Jerry Zhang]
+cb00f03  Bluetooth: Remove disconnect attempts to override the connections  [Bhakthavatsala Raghavendra]
+29875db  Provide Synchronization to destroyUiAutomationService() to avoid Framework Reboot  [Gopal Krishna Shukla]
+bb3771f  Clear mDeferredHideWallpaper if wallpaper is being hidden  [Tiger Huang]
+0617dcc  SystemUI: Fix SystemUI Crash Issue  [mqi]
+34def79  Lock Clock & Date Font Size [1/2]  [SuperDroidBond]
+49b7ec5  base: Lockscreen Date Fonts [1/2]  [Varun Date]
+0478a7b  QuickSettings: Option to disable brightness slider (1/2)  [Altaf-Mahdi]
+11e8be4  Fix Scrolling power menu outside of window  [Miguel Martinez]
+fb9aa5f  Introduce QS tile style picker [1/3]  [calebcabob]
+da78fa0  Integrate Xtended OTA Support [1/3]  [Pranav Vashi]
+285942e  Kill some lockscreen related animations  [Umang96]
+c6aad0f  WifiDisplayController: handle preexisting p2p connection status  [Li Sun]
+aaeb724  WiFiDisplayController: Defer the P2P Initialization from its constructor.  [Purushottam Kushwaha]
+79c64a7  Merge changes for launching wifidisplay from system settings  [Indranil Chakraborty]
+0123b64  Fix mounting of non-FAT formatted SD cards (1/2)  [Michael Bestas]
+5fc1c5b  CaffeineTile: Fix crash for longClick result.  [Chris]
+c4a5775  SystemUI: use fp MODE_UNLOCK when pulsing or aod  [Marko Man]
+0b2e19e  Force disable PlayServices OTA checks  [ezio84]
+8fa4e45  base: SystemUI: stop crashing qs tiles during boot  [maxwen]
+d21741f  SoundTile: Change ZEN_MODE_NO_INTERRUPTIONS to ZEN_MODE_ALARMS  [xyyx]
+3ddf5e6  Add Sound tile to Quick Settings  [Yoshinori Hirano]
+513d331  SystemUI: Toggle USB tethering only when USB is connected  [Gabriele M]
+7a99ffc  Add USB Tether QS Tile  [BestPig]
+
+ * packages/apps/Xtensions
+2bcd859  Add Quick Settings Pulldown options [2/2]  [Roman Birg]
+64b86ac  Add Lockscreen Date n Clock Sizes [2/2]  [SuperDroidBond]
+0eca176  Lockscreen Date Fonts [2/2]  [Varun Date]
+b02b507  Introduce QS tile style picker [2/3]  [calebcabob]
+
+====================
+     2018-10-21    
+====================
+
+====================
+     2018-10-20    
+====================
+
+ * hardware/qcom/gps
+2930bf2  msm8974: Add -Wno-error to compile with global -Werror.  [Chih-Hung Hsieh]
+
+====================
+     2018-10-19    
+====================
+
+ * manifest
+ebfb272  Track OTA Packages  [SuperDroidBond]
+
+ * packages/apps/DocumentsUI
+99d370b  Fix Blue Text on Positive Button  [SuperDroidBond]
+
+ * vendor/xtended
+1977879  Introduce QS tile style picker [3/3]  [calebcabob]
+650fe4b  Remove Unnecessary packages  [SuperDroidBond]
+172eb07  Integrate Xtended OTA Support [2/3]  [Pranav Vashi]
+
+ * vendor/xtended/DevicesOTA
+fceacd0  Integrate OTA For OnePlus3  [SuperDroidBond]
+
+====================
+     2018-10-18    
+====================
+
+ * packages/apps/Settings
+d728e5f  Integrate Xtended OTA Support [3/3]  [Pranav Vashi]
+
+ * packages/apps/XOta
+617884d  Pie: OTA Refactor for Xtended  [Pranav Vashi]
+
+ * vendor/xtended/DevicesOTA
+b1fe785  Initial commit  [SuperDroidBond]
+
+====================
+     2018-10-17    
+====================
+
+ * build/make
+5900652  Build SnapCam  [SuperDroidBond]
+
+ * manifest
+66c9577  Track our Gallery & SnapCam Forks  [SuperDroidBond]
+
+ * packages/apps/Settings
+361ffb8  DevelopmentSettings: Hide OEM unlock by default  [Bruno Martins]
+
+ * packages/apps/SnapdragonCamera2
+45deab8  Remove Condition for building  [SuperDroidBond]
+
+ * packages/apps/Xtensions
+37e8cdd  All Double Tap Gesture default off  [SuperDroidBond]
+
+ * packages/providers/MediaProvider
+d9742ef  Fix mounting of non-FAT formatted SD cards (2/2)  [Michael Bestas]
+
+ * vendor/xtended
+ed8ef2d  OmniTheme: Add Mistic Brown Accent  [SuperDroidBond]
+230eb09  OmniTheme: Add EyeSoother Theme [1/2]  [SuperDroidBond]
+5dc62af  Add Xtended Clear Theme from Oreo [1/2]  [SuperDroidBond]
+
+====================
+     2018-10-16    
+====================
+
+ * manifest
+259a072  Update ReadMe & Thread Template for Pie  [SuperDroidBond]
+362d80e  Track Our Own - qcom_sepolicy opt_net_ims xtended_interfaces  [SuperDroidBond]
+
+ * packages/apps/OmniStyle
+1e16c86  OmniTheme: Add Eye Soother theme [2/2]  [SuperDroidBond]
+8ef3b77  Add Xtended Clear Theme from Oreo [2/2]  [SuperDroidBond]
+
+ * packages/apps/Settings
+c6f42a0  Align battery preference like others  [SuperDroidBond]
+983692c  Remove feedback and bug report stuff  [ezio84]
+de99678  Changelog: Add left padding  [xyyx]
+
+ * vendor/xtended
+d98dfa6  OmniTheme: Add NotificationBlack theme for notification  [SuperDroidBond]
+4865fa6  Correct the naming of Pitch Black & Almost Black Themes  [SuperDroidBond]
+
