@@ -22,21 +22,21 @@
                            <filename>Xtended-oneplus3-20181102-XP2-OFFICIAL-Release-v5.5</filename>
 			   <buildtype>Stable</buildtype>
 			   <paypal>https://www.paypal.me/superdroidbond</paypal>
-                           <download>https://sourceforge.net/projects/xtended/files/oneplus3/Xtended-oneplus3-20181102-XP2-OFFICIAL-Release-v5.5.zip/download</download>
-			   <changelog>https://raw.githubusercontent.com/Xtended-Pie/vendor_xtended_DevicesOTA/xp/oneplus3_changelog.txt</changelog>
-			   <recovery>https://drive.google.com/open?id=1sF5RyYECDPg-5hbFjN03OSh50-dh4cMl</recovery>
+                           <download>https://netix.dl.sourceforge.net/project/xtended/oneplus3/Xtended-oneplus3-20181102-XP2-OFFICIAL-Release-v5.5.zip</download>
+                           <changelog>https://raw.githubusercontent.com/Xtended-Pie/vendor_xtended_DevicesOTA/xp/oneplus3_changelog.txt</changelog>
+	                   <recovery>https://drive.google.com/open?id=1sF5RyYECDPg-5hbFjN03OSh50-dh4cMl</recovery>
                            <gapps>https://OpenGapps.org</gapps>
                            <forum>https://forum.xda-developers.com/oneplus-3/oneplus-3--3t-cross-device-development/cardinal-aosp-5-0-android-8-0-pre-t3693585</forum>
                            <telegram>https://t.me/XtendedOfficial</telegram>
                   </oneplus3>
-		  <dumpling>
+                  <dumpling>
                            <maintainer>mukesh22584</maintainer>
                            <devicename>Dumpling (dumpling)</devicename>
                            <filename>Xtended-dumpling-20181027-XP2-OFFICIAL-Release-v5</filename>
-			   <buildtype>Stable</buildtype>
-			   <paypal>https://www.paypal.me/mukesh22584</paypal>
-                           <download>https://sourceforge.net/projects/xtended/files/dumpling/Xtended-dumpling-20181027-XP2-OFFICIAL-Release-v5.zip/download</download>
-			   <gapps>https://OpenGapps.org</gapps>
+                           <buildtype>Stable</buildtype>
+                           <paypal>https://www.paypal.me/mukesh22584</paypal>
+                           <download>https://netix.dl.sourceforge.net/project/xtended/dumpling/Xtended-dumpling-20181027-XP2-OFFICIAL-Release-v5.zip</download>
+                           <gapps>https://OpenGapps.org</gapps>
                            <forum>https://forum.xda-developers.com/oneplus-5t/development/msm-xtended-oreoandroid-8-1-t3754938</forum>
                            <telegram>https://t.me/XtendedOfficial</telegram>
                   </dumpling>
@@ -44,10 +44,10 @@
                            <maintainer>mukesh22584</maintainer>
                            <devicename>Cheeseburger (cheeseburger)</devicename>
                            <filename>Xtended-cheeseburger-20181027-XP2-OFFICIAL-Release-v5</filename>
-			   <buildtype>Stable</buildtype>
-			   <paypal>https://www.paypal.me/mukesh22584</paypal>
-                           <download>https://sourceforge.net/projects/xtended/files/cheeseburger/Xtended-cheeseburger-20181027-XP2-OFFICIAL-Release-v5.zip/download</download>
-			   <gapps>https://OpenGapps.org</gapps>
+                           <buildtype>Stable</buildtype>
+                           <paypal>https://www.paypal.me/mukesh22584</paypal>
+                           <download>https://netix.dl.sourceforge.net/project/xtended/cheeseburger/Xtended-cheeseburger-20181027-XP2-OFFICIAL-Release-v5.zip</download>
+                           <gapps>https://OpenGapps.org</gapps>
                            <forum>https://forum.xda-developers.com/oneplus-5/development/stable-msm-xtended-t3761012</forum>
                            <telegram>https://t.me/XtendedOfficial</telegram>
                   </cheeseburger>
@@ -58,11 +58,11 @@
                            <maintainer>Ankan Ghosh</maintainer>
                            <devicename>Redmi4A (rolex)</devicename>
                            <filename>Xtended-rolex-20181027-XP2-OFFICIAL-Release-v5</filename>
-			   <buildtype>Stable</buildtype>
-			   <paypal>https://www.paypal.me/Ankan117</paypal>
-                           <download>https://sourceforge.net/projects/xtended/files/rolex/Xtended-rolex-20181027-XP2-OFFICIAL-Release-v5.zip/download</download>
-			   <changelog>https://raw.githubusercontent.com/Xtended-Pie/vendor_xtended_DevicesOTA/xp/rolex_changelog.txt</changelog>
-			   <recovery>https://sourceforge.net/projects/batik-recovery/files/rolex/BR-rolex-S-1.4-20181010-0716-OFFICIAL.zip/download</recovery>
+                           <buildtype>Stable</buildtype>
+                           <paypal>https://www.paypal.me/Ankan117</paypal>
+                           <download>https://netix.dl.sourceforge.net/project/xtended/rolex/Xtended-rolex-20181027-XP2-OFFICIAL-Release-v5.zip</download>
+                           <changelog>https://raw.githubusercontent.com/Xtended-Pie/vendor_xtended_DevicesOTA/xp/rolex_changelog.txt</changelog>
+                           <recovery>https://sourceforge.net/projects/batik-recovery/files/rolex/BR-rolex-S-1.4-20181010-0716-OFFICIAL.zip</recovery>
                            <gapps>https://OpenGapps.org</gapps>
                            <forum>https://forum.xda-developers.com/redmi-4a/development/stable-msm-xtended-pie-firstblood-t3843313</forum>
                            <telegram>https://t.me/XtendedOfficial</telegram>
@@ -72,25 +72,25 @@
                            <devicename>Redmi4x (santoni)</devicename>
                            <filename>Xtended-santoni-20181027-XP2-OFFICIAL-Release-v5</filename>
                            <buildtype>Stable</buildtype>
-                           <download>https://sourceforge.net/projects/xtended/files/santoni/Xtended-santoni-20181027-XP2-OFFICIAL-Release-v5.zip/download</download>
+                           <download>https://netix.dl.sourceforge.net/project/xtended/santoni/Xtended-santoni-20181027-XP2-OFFICIAL-Release-v5.zip</download>
                            <changelog>https://raw.githubusercontent.com/Xtended-Pie/vendor_xtended_DevicesOTA/xp/santoni_changelog.txt</changelog>
                            <recovery>Any Treble Enabled TWRP Recovery</recovery>
                            <gapps>https://OpenGapps.org</gapps>
                            <forum>https://forum.xda-developers.com/xiaomi-redmi-4x/development/rom-msm-xtended-pie-t3852960</forum>
                            <telegram>https://t.me/XtendedOfficial</telegram>
                    </santoni>
-		   <vince>
-			   <maintainer>Raj Kale (Rajkale99)</maintainer>
-			   <devicename>Redmi Note 5 (vince)</devicename>
-			   <filename>Xtended-vince-20181028-OFFCIAL.zip</filename>
-			   <buildtype>Stable</buildtype>
-			   <download>https://sourceforge.net/projects/xtended/files/vince/Xtended-vince-20181028-OFFCIAL.zip/download</download>
-			   <changelog>https://raw.githubusercontent.com/Xtended-Pie/vendor_xtended_DevicesOTA/xp/vince_changelog.txt</changelog>
-			   <recovery>Use Brigdev twrp Recovery</recovery>
-			   <gapps>https://OpenGapps.org</gapps>
-			   <forum>https://forum.xda-developers.com/redmi-note-5/development/official-msm-xtended-9-0-pie-t3859327</forum>
-			   <telegram>https://t.me/XtendedOfficial</telegram>
-		   </vince>
+                   <vince>
+                           <maintainer>Raj Kale (Rajkale99)</maintainer>
+                           <devicename>Redmi Note 5 (vince)</devicename>
+                           <filename>Xtended-vince-20181028-OFFCIAL.zip</filename>
+                           <buildtype>Stable</buildtype>
+                           <download>https://netix.dl.sourceforge.net/project/xtended/vince/Xtended-vince-20181028-OFFCIAL.zip</download>
+                           <changelog>https://raw.githubusercontent.com/Xtended-Pie/vendor_xtended_DevicesOTA/xp/vince_changelog.txt</changelog>
+                           <recovery>Use Brigdev twrp Recovery</recovery>
+                           <gapps>https://OpenGapps.org</gapps>
+                           <forum>https://forum.xda-developers.com/redmi-note-5/development/official-msm-xtended-9-0-pie-t3859327</forum>
+                           <telegram>https://t.me/XtendedOfficial</telegram>
+		           </vince>
         </manufacturer>
 <!-- MOTOROLA -->
 	 <manufacturer id="Motorola">
@@ -100,7 +100,7 @@
 			<filename>Xtended-potter-20181029-XP2-OFFICIAL-Release-v5.zip</filename>
 			<buildtype>Stable</buildtype>
                         <paypal>https://www.paypal.me/icodelife</paypal>
-			<download>https://sourceforge.net/projects/xtended/files/potter/Xtended-potter-20181029-XP2-OFFICIAL-Release-v5.zip/download</download>
+			<download>https://netix.dl.sourceforge.net/project/xtended/potter/Xtended-potter-20181029-XP2-OFFICIAL-Release-v5.zip</download>
 			<changelog>https://raw.githubusercontent.com/Xtended-Pie/vendor_xtended_DevicesOTA/xp/potter_changelog.txt</changelog>
                         <gapps>https://OpenGapps.org</gapps>
                         <forum>https://forum.xda-developers.com/g5-plus/development/rom-msm-xtended-t3851041</forum>
@@ -115,7 +115,7 @@
 			<filename>Xtended-X00TD-20181030-XP2-OFFICIAL-Release-v5.zip</filename>
 			<buildtype>Stable</buildtype>
                         <paypal>https://www.paypal.me/superdroidbond</paypal>
-			<download>https://sourceforge.net/projects/xtended/files/MaxPro1-X00TD/Xtended-X00TD-20181030-XP2-OFFICIAL-Release-v5.zip/download</download>
+			<download>https://netix.dl.sourceforge.net/project/xtended/MaxPro1-X00TD/Xtended-X00TD-20181030-XP2-OFFICIAL-Release-v5.zip</download>
 			<changelog>https://raw.githubusercontent.com/Xtended-Pie/vendor_xtended_DevicesOTA/xp/X00TD_changelog.txt</changelog>
                         <gapps>https://OpenGapps.org</gapps>
 		        <recovery>https://sourceforge.net/projects/aryan-builds/files/X00TD-Recoveries/TWRP-Dragon/TWRP-Dragon-v3.1-X00TD-stable.img/download</recovery>
