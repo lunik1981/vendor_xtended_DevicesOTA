@@ -79,6 +79,18 @@
                            <forum>https://forum.xda-developers.com/xiaomi-redmi-4x/development/rom-msm-xtended-pie-t3852960</forum>
                            <telegram>https://t.me/XtendedOfficial</telegram>
                    </santoni>
+		   <vince>
+			   <maintauner>Raj Kale (Rajkale99)</maintainer>
+			   <devicename>Redmi Note 5 (vince)</devicename>
+			   <filename>Xtended-vince-20181028-OFFCIAL.zip</filename>
+			   <buildtype>Stable</buildtype>
+			   <download>https://sourceforge.net/projects/xtended/files/vince/Xtended-vince-20181028-OFFCIAL.zip/download</download>
+			   <changelog>https://raw.githubusercontent.com/Xtended-Pie/vendor_xtended_DevicesOTA/xp/vince_changelog.txt</changelog>
+			   <recovery>Use Brigdev twrp Recovery</recovery>
+			   <gapps>https://OpenGapps.org</gapps>
+			   <forum>https://forum.xda-developers.com/redmi-note-5/development/official-msm-xtended-9-0-pie-t3859327</forum>
+			   <telegram>https://t.me/XtendedOfficial</telegram>
+		   </vince>
         </manufacturer>
 <!-- MOTOROLA -->
 	 <manufacturer id="Motorola">
