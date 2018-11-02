@@ -107,4 +107,20 @@
                         <telegram>https://t.me/XtendedOfficial</telegram>			
                 </potter> 
        </manufacturer>
+<!-- ASUS -->
+	 <manufacturer id="ASUS">
+		<X00TD>
+			<maintainer>AryanPatidar</maintainer>
+			<devicename>Zenfone Max Pro M1 (X00TD)</devicename>
+			<filename>Xtended-X00TD-20181030-XP2-OFFICIAL-Release-v5.zip</filename>
+			<buildtype>Stable</buildtype>
+                        <paypal>https://www.paypal.me/superdroidbond</paypal>
+			<download>https://sourceforge.net/projects/xtended/files/MaxPro1-X00TD/Xtended-X00TD-20181030-XP2-OFFICIAL-Release-v5.zip/download</download>
+			<changelog>https://raw.githubusercontent.com/Xtended-Pie/vendor_xtended_DevicesOTA/xp/X00TD_changelog.txt</changelog>
+                        <gapps>https://OpenGapps.org</gapps>
+		        <recovery>https://sourceforge.net/projects/aryan-builds/files/X00TD-Recoveries/TWRP-Dragon/TWRP-Dragon-v3.1-X00TD-stable.img/download</recovery>
+                        <forum>https://forum.xda-developers.com/asus-zenfone-max-pro-m1/development/stable-msm-xtended-xp-1-release-v2-t3847306</forum>
+                        <telegram>https://t.me/Xtended_X00TD</telegram>
+                </X00TD>
+       </manufacturer>
 </OTA>
