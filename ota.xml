@@ -59,10 +59,10 @@
                      <rolex>
                            <maintainer>Ankan Ghosh</maintainer>
                            <devicename>Redmi4A (rolex)</devicename>
-                           <filename>Xtended-rolex-20181027-XP2-OFFICIAL-Release-v5</filename>
+                           <filename>Xtended-rolex-20181103-XP2-OFFICIAL-Release-v5.5</filename>
                            <buildtype>Stable</buildtype>
                            <paypal>https://www.paypal.me/Ankan117</paypal>
-                           <download>https://netix.dl.sourceforge.net/project/xtended/rolex/Xtended-rolex-20181027-XP2-OFFICIAL-Release-v5.zip</download>
+                           <download>https://netix.dl.sourceforge.net/project/xtended/rolex/Xtended-rolex-20181103-XP2-OFFICIAL-Release-v5.5.zip</download>
                            <changelog>https://raw.githubusercontent.com/Xtended-Pie/vendor_xtended_DevicesOTA/xp/rolex_changelog.txt</changelog>
                            <recovery>https://sourceforge.net/projects/batik-recovery/files/rolex/BR-rolex-S-1.4-20181010-0716-OFFICIAL.zip</recovery>
                            <gapps>https://OpenGapps.org</gapps>
