@@ -35,7 +35,8 @@
                            <filename>Xtended-dumpling-20181027-XP2-OFFICIAL-Release-v5</filename>
                            <buildtype>Stable</buildtype>
                            <paypal>https://www.paypal.me/mukesh22584</paypal>
-                           <download>https://netix.dl.sourceforge.net/project/xtended/dumpling/Xtended-dumpling-20181027-XP2-OFFICIAL-Release-v5.zip</download>
+                           <download>https://netix.dl.sourceforge.net/project/xtended/dumpling/Xtended-dumpling-20181103-XP2-OFFICIAL-Release-v5.5.zip</download>
+                           <changelog>https://raw.githubusercontent.com/Xtended-Pie/vendor_xtended_DevicesOTA/xp/dumpling_changelog.txt</changelog>
                            <gapps>https://OpenGapps.org</gapps>
                            <forum>https://forum.xda-developers.com/oneplus-5t/development/msm-xtended-oreoandroid-8-1-t3754938</forum>
                            <telegram>https://t.me/XtendedOfficial</telegram>
@@ -46,7 +47,8 @@
                            <filename>Xtended-cheeseburger-20181027-XP2-OFFICIAL-Release-v5</filename>
                            <buildtype>Stable</buildtype>
                            <paypal>https://www.paypal.me/mukesh22584</paypal>
-                           <download>https://netix.dl.sourceforge.net/project/xtended/cheeseburger/Xtended-cheeseburger-20181027-XP2-OFFICIAL-Release-v5.zip</download>
+                           <download>https://netix.dl.sourceforge.net/project/xtended/cheeseburger/Xtended-cheeseburger-20181103-XP2-OFFICIAL-Release-v5.5.zip</download>
+                           <changelog>https://raw.githubusercontent.com/Xtended-Pie/vendor_xtended_DevicesOTA/xp/cheeseburger_changelog.txt</changelog>
                            <gapps>https://OpenGapps.org</gapps>
                            <forum>https://forum.xda-developers.com/oneplus-5/development/stable-msm-xtended-t3761012</forum>
                            <telegram>https://t.me/XtendedOfficial</telegram>
